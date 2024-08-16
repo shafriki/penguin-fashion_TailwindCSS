@@ -4,10 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penguin Fashion</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="shortcut icon" href="icons/icons8-penguin-65.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+        .font-bebas-neue {
+        font-family: "Bebas Neue", sans-serif;
+        }
+        .font-roboto {
+        font-family: "Roboto", sans-serif;
+        }
+
+    </style>
 </head>
-<body>
-    <header class="header-section">
+<body class="font-roboto">
+    <header class="header-section bg-amber-50">
+        <nav class="flex justify-between items-center mx-32">
+            <img src="icons/logo.png" alt="" class="w-56 h-8 mt-8">
+
+            <div class="flex gap-10 mt-8">
+                <a href="#" class="font-roboto text-base font-semibold">Home</a>
+                <a href="#" class="font-roboto text-base font-semibold">Product</a>
+                <a href="#" class="font-roboto text-base font-semibold">About us</a>
+                <a href="#" class="font-roboto text-base font-semibold">Contact us</a>
+            </div>
+        </nav>
+        <div class="flex justify-between items-center">
+            <div>
+                <h3 class="uppercase font-bebas-neue ml-32 mb-2 mt-44"><span class="text-7xl text-orange-400 font-semibold">Be the Penguins</span>
+                    <br><span class="text-7xl text-slate-800 font-semibold ">of Winter</span></h3>
+                <p class="font-roboto ml-32 mb-2 text-black w-96">Lorem Ipsum is simply dummy text of the printing 
+                    and typesetting industry.</p>
+                <button class="font-roboto ml-32 bg-lime-600 h-14 w-40 rounded-lg text-base text-white font-semibold mb-56">BUY NOW</button>
+            </div>
+            <div>
+                <img src="images/model.png" alt="" class="mr-44">
+            </div>
+        </div>
 
     </header>
 
